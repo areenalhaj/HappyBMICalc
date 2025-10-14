@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  direction: rtl;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  height: 500px;
+  background-color: #c9c9c9;
+  width: 800px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  width: fit-content;
+  border-radius: 20px;
+  background-color: #63bbff;
+}
+
+.text {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+button {
+  background-color: #58ab9a;
+  border: none;
+}
+#calc-button {
+  width: 250px;
+}
+#reset-btn {
+  width: 200px;
+}
+button:hover {
+  background-color: #47bea7;
+}
+input,
+body {
+  background-color: #ffffff;
+}
+input,
+label,
+button,
+#bmi-result {
+  color: #333333;
+  font-weight: bolder;
+  font-size: 23px;
+}
+
+input,
+h1 {
+  text-align: center;
+}
+.container2:hover {
+  background-color: #9ed5ff;
+
+  color: #1a1919;
+}
+h1 {
+  margin-bottom: 50px;
+}
